@@ -1,12 +1,25 @@
-function meuEscopo(){
+function meuEscopo() {
+    /* 
+    =================================================================
+    Usamos querySelector para selecionar esse elemento. O window.document 
+    faz referência ao documento HTML da página atual.
+    ==================================================================
+    */
     const form = window.document.querySelector('.form');
     const resultado = window.document.querySelector('.resultados');
-
+    //-----------------------------------------------------------------------
+    //Crinado um array para guardar os dados.
     const pessoas = [];
-
-    function recebeEvento(evento){
+    //-----------------------------------------------------------------------
+    
+    // Criando uma função com um argumento.
+    function recebeEvento(evento) {
+        /*
+        Quando chamar o método -> addEventListener 
+        esse argumento se tornara um evento 
+        */
         evento.preventDefault();
-
+        //----------------------------------------
         const nome = form.querySelector('.nome');
         const sobrenome = form.querySelector('.sobrenome');
         const peso = form.querySelector('.peso');
