@@ -39,3 +39,16 @@ function apresentar({ nome, idade }) {
 }
 
 console.log(apresentar(ppessoa)); // Saída: Olá, meu nome é Edgar e tenho 25 anos.
+
+// Atribuição a Variáveis com Nomes Diferentes:
+const pessooa = {
+    nome: "Edgar",
+    idade: 25
+};
+
+// Atribuindo a variáveis com nomes diferentes
+const { nome: primeiroNome, idade: anos } = pessooa;
+
+console.log(primeiroNome); // Saída: Edgar
+console.log(anos);         // Saída: 25
+
