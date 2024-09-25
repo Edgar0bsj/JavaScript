@@ -14,6 +14,10 @@ reduce()	Reduz o array a um único valor com base em uma função acumulativa.
 // Criando um Array
 const frutas = ["maçã", "banana"];
 
+// length
+const quantFrutas = frutas.length;
+console.log(quantFrutas);
+
 // push()
 frutas.push("laranja");
 console.log(frutas);  // Saída: ["maçã", "banana", "laranja"]
