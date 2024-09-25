@@ -3,7 +3,6 @@ Este repositório contém meus estudos sobre a linguagem JavaScript, organizados
 
 ## Estrutura do Repositório 📜
 O conteúdo está dividido em diretórios, onde cada pasta aborda um tema específico de JavaScript:
-**1_Conceitos_Fundamentais**
 1_Variaveis: let, const, var.
 2_Tipos_de_Dados: string, number, boolean, null, undefined, object, symbol, array.
 3_Operadores: aritméticos, comparação, lógicos, de atribuição.
