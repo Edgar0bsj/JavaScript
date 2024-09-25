@@ -3,10 +3,10 @@ Este repositório contém meus estudos sobre a linguagem JavaScript, organizados
 
 ## Estrutura do Repositório 📜
 O conteúdo está dividido em diretórios, onde cada pasta aborda um tema específico de JavaScript:
-> 1_Variaveis
-> 2_Tipos_de_Dados
-> 3_Operadores 
-> 4_Controle_de_Fluxo
+> 1_Variaveis  
+> 2_Tipos_de_Dados  
+> 3_Operadores    
+> 4_Controle_de_Fluxo  
 
 ## Objetivo ❤️
 O foco deste repositório é oferecer exemplos práticos e exercícios que ajudem a fortalecer o entendimento dos fundamentos de JavaScript. Cada diretório está repleto de pequenos projetos ou exercícios para praticar o conteúdo.
